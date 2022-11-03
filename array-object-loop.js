@@ -123,3 +123,21 @@ let morsalin3 = {
     age: 21
 }
 document.write('<br>', Object.values(morsalin3));
+
+
+
+// ================= spread operator =================
+
+let object1 = {
+    name: 'morsalin',
+    address: 'Nilphamari',
+    work: 'studern'
+}
+let object2 = {
+    collage: 'Dinajup polytechnic institute Dinajpur',
+    subject: 'Computer',
+    session: "1018-19",
+}
+
+let object3 ={...object1, ...object2};
+document.write('<br>', object3);
