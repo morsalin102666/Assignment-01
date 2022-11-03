@@ -128,16 +128,41 @@ document.write('<br>', Object.values(morsalin3));
 
 // ================= spread operator =================
 
-let object1 = {
+let details = {
     name: 'morsalin',
     address: 'Nilphamari',
     work: 'studern'
 }
-let object2 = {
+let study = {
     collage: 'Dinajup polytechnic institute Dinajpur',
     subject: 'Computer',
     session: "1018-19",
 }
 
-let object3 ={...object1, ...object2};
-document.write('<br>', object3);
+let about ={...details, ...study};
+document.write('<br>', about);
+
+
+// ============================= Loop ===========================
+
+// ==== for loop ====
+
+for(let i = 0; i<=5; i++){
+    document.write('<br>', i);
+}
+
+
+// ==== for of loop ====
+
+let forOf = 'morsalin';
+for(let x of forOf){
+    document.write('<br>', x);
+}
+
+
+// ==== for in loop ====
+
+let forIn = 'islam';
+for(let x of forIn){
+    document.write('<br>', x);
+}
