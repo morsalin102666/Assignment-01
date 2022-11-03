@@ -79,3 +79,47 @@ document.write('<br>', spliceName);
 
 
 // ================================== Object ======================================
+// ========== object method ==========
+
+// ==== entries method ====
+
+let morsalin = {
+    work: 'student',
+    class: 12,
+    subject: 'computer',
+    age: 21
+}
+document.write('<br>', Object.entries(morsalin));
+
+
+// ====  hasOwn method ====
+
+let morsalin1 = {
+    work: 'student',
+    class: 12,
+    subject: 'computer',
+    age: 21
+}
+document.write('<br>', Object.hasOwn(morsalin1, 'lastName'));
+
+
+// ====  keys method ====
+
+let morsalin2 = {
+    work: 'student',
+    class: 12,
+    subject: 'computer',
+    age: 21
+}
+document.write('<br>', Object.keys(morsalin2));
+
+
+// ====  values method ====
+
+let morsalin3 = {
+    work: 'student',
+    class: 12,
+    subject: 'computer',
+    age: 21
+}
+document.write('<br>', Object.values(morsalin3));
