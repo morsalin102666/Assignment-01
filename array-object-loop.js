@@ -163,6 +163,6 @@ for(let x of forOf){
 // ==== for in loop ====
 
 let forIn = 'islam';
-for(let x of forIn){
+for(let x in forIn){
     document.write('<br>', x);
 }
